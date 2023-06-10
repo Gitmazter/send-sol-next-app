@@ -1,9 +1,8 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 0rem;
   min-height: 100vh;
 }
 
@@ -226,4 +225,81 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.header {
+  padding: 2rem;
+  background-color: rgb(68, 68, 68);
+  top:0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header span {
+    padding-left: 40px;
+    font-size: 2em;
+}
+
+.sendSolForm {
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: rgb(42, 8, 73);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sendSolForm input {
+  background-color: rgb(27, 6, 46);
+  color: rgb(145, 145, 145);
+  padding: 0.5rem;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sendSolForm :nth-child(2) {
+  width: 64ch;
+}
+
+.sendSolForm :nth-child(3) {
+  min-width: 20ch;
+  max-width: fit-content;
+}
+
+.sendSolForm button {
+  width: 20ch;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.sendSolForm button:hover{
+  background-color: rgb(165, 165, 165);
+  color: black;
+}
+
+.notConnectedDiv {
+  height: 200px;
+  width: 400px;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: rgb(42, 8, 73);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sendSolH3 {
+  text-align: center;
+  padding-bottom: 20px;
 }
